@@ -8,20 +8,20 @@ const WHATSAPP = "5534992447675";
 // img: caminho relativo dentro de /public (ex.: /produtos/vestido-midi.jpg)
 const products = [
   {
-    id: "vestido-mid",
-    name: "Vestido Mid",
+    id: "vestido-midi",
+    name: "Vestido Midi",
     price: 159.9,
     badge: "Novidade",
-    sizes: ["46", "48", "50", "52"],
-    img: "public/vestido-mid.jpg",
+    sizes: ["46", "48", "50", "52", "54"],
+    img: "/vestido-mid.jpg",
   },
   {
-    id: "vestido-mid-azul",
-    name: "Vestido Mid Azul",
-    price: 219.9,
-    badge: "Best Seller",
-    sizes: ["48", "50", "52", "54"],
-    img: "public/vestido-mid-azul.jpg",
+    id: "vestido-midi-azul",
+    name: "Vestido Midi Azul",
+    price: 169.9,
+    badge: "Coleção Verão",
+    sizes: ["46", "48", "50", "52"],
+    img: "/vestido-mid-azul.jpg",
   },
   
   // adicione mais itens aqui seguindo o mesmo padrão
