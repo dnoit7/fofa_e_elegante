@@ -1,4 +1,3 @@
-
 import Hero from "../components/Hero";
 import Catalog from "../components/Catalog";
 import Testimonials from "../components/Testimonials";
