@@ -8,7 +8,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#F58634",
+        primary: "#f58634",
       },
       borderRadius: {
         "2xl": "1rem",
