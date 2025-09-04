@@ -63,20 +63,24 @@ export default function Catalog() {
               className="group overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-gray-100 transition hover:shadow-md"
             >
               <div className="relative">
-                <Image
-                  src={p.img}
-                  alt={p.name}
-                  width={900}
-                  height={1200}
-                  className="aspect-[3/4] w-full object-cover"
-                  priority={false}
-                />
-                {p.badge && (
-                  <span className="absolute left-3 top-3 rounded-full bg-white/90 px-2 py-1 text-xs font-semibold text-pink-700 shadow">
-                    {p.badge}
-                  </span>
-                )}
-              </div>
+  <div className="relative aspect-[3/4] w-full overflow-hidden">
+    <Image
+      src={p.img}              // ex.: "/vestido-mid.jpg"
+      alt={p.name}
+      fill                     // <- preenche o contêiner
+      className="object-cover"
+      sizes="(min-width:1024px) 25vw, (min-width:768px) 33vw, 50vw"
+      priority={false}
+    />
+  </div>
+
+  {p.badge && (
+    <span className="absolute left-3 top-3 rounded-full bg-white/90 px-2 py-1 text-xs font-semibold text-pink-700 shadow">
+      {p.badge}
+    </span>
+  )}
+</div>
+
               <div className="p-4">
                 <h3 className="text-base font-semibold text-gray-900">{p.name}</h3>
                 <p className="mt-1 text-pink-700">{brl(p.price)}</p>
