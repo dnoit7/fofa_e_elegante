@@ -13,7 +13,7 @@ const products = [
     price: 159.9,
     badge: "Novidade",
     sizes: ["46", "48", "50", "52"],
-    img: "/produtos/vestido-mid.jpg",
+    img: "public/vestido-mid.jpg",
   },
   {
     id: "vestido-mid-azul",
@@ -21,7 +21,7 @@ const products = [
     price: 219.9,
     badge: "Best Seller",
     sizes: ["48", "50", "52", "54"],
-    img: "/produtos/vestido-mid-azul.jpg",
+    img: "public/vestido-mid-azul.jpg",
   },
   
   // adicione mais itens aqui seguindo o mesmo padrão
