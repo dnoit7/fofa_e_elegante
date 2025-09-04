@@ -37,7 +37,13 @@ export default function Hero() {
         </div>
         <div className="relative">
           <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl shadow-2xl ring-1 ring-gray-100">
-            <Image src="https://placehold.co/900x1100?text=Banner+Plus+Size" alt="Modelo Plus Size" width={900} height={1100} className="h-full w-full object-cover" />
+           <Image
+  src="/compre-agora-pgninicial.jpg"
+  alt="Modelo Plus Size"
+  width={600}
+  height={600}
+  className="w-full h-auto object-cover"
+/>
           </div>
           <div className="absolute -bottom-6 -left-6 hidden rounded-2xl bg-white p-4 shadow-xl ring-1 ring-gray-100 md:block">
             <p className="text-xs font-semibold text-pink-700">Nova Coleção</p>
